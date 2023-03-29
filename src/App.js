@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Login from "./container/Login";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Login />
     </div>
   );
 }
 
-export default App;
+// //import "./App.css";
+// import Login from "./container/Login";
+// // import Avatar from "./components/Avatar";
+// // import CustomeButton from "./components/Button";
+// // import CustomModal from "./components/CustomModal";
+// // import Navbar from "./container/Navbar";
+// // import PropTypes from "prop-types";
+// // import Pagination from "./components/Pagination";
+
+// function App() {
+//   // const handleClose = () => {
+//   //   setShowModal((prev) => !prev);
+//   // };
+//   return (
+//     <div className="App">
+//       <Login />
+//       {/* <Navbar />
+//       <Avatar name="Sanya Arora" color="white" size="sm" />
+//       <CustomeButton />
+//       <CustomModal open={showModal} onClose={handleClose}>
+//         abc
+//       </CustomModal>
+//       <Pagination /> */}
+//     </div>
+//   );
+// }
+
+// // App.propTypes = {
+// //   showModal: PropTypes.bool.isRequired,
+// //   setShowModal: PropTypes.func.isRequired,
+// // };
+
+// export default App;
