@@ -1,0 +1,21 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+  h4 {
+    color: white;
+  }
+  .spotify-login {
+    height: 50px;
+  }
+  .spotify-button {
+    border-radius: 20px;
+    text-transform: none;
+    background-color: green;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+}

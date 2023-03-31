@@ -1,0 +1,38 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "name": "Introduction to React",
+            "description": "Learn the basics of React and how to build a simple web application",
+            "videoUrl": "https://example.com/videos/react-intro.mp4"
+        },
+        {
+            "id": 2,
+            "name": "Advanced React",
+            "description": "Explore advanced topics in React, including Redux and server-side rendering",
+            "tag": "react",
+            "videoUrl": "https://example.com/videos/react-advanced.mp4"
+        },
+        {
+            "id": 3,
+            "name": "Concepts of React",
+            "description": "Learn how to build mobile applications using React Native",
+            "tag": "react",
+            "videoUrl": "https://example.com/videos/react-native.mp4"
+        },
+        {
+            "id": 4,
+            "name": "Functions React",
+            "description": "Explore advanced topics in React, including Redux and server-side rendering",
+            "tag": "react",
+            "videoUrl": "https://example.com/videos/react-advanced.mp4"
+        },
+        {
+            "id": 5,
+            "name": "Class Components React",
+            "description": "Explore advanced topics in React, including Redux and server-side rendering",
+            "tag": "react",
+            "videoUrl": "https://example.com/videos/react-advanced.mp4"
+        }
+    ]
+}

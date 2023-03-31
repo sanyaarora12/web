@@ -1,10 +1,15 @@
 import React from "react";
-import Login from "./container/Login";
+import Course from "./container/Home";
+import "./App.css";
+import Navbar from "./container/Navbar";
+//import Routers from "./helpers/Routers";
 
 export default function App() {
   return (
-    <div>
-      <Login />
+    <div className="app">
+      {/* <Routers /> */}
+      <Navbar />
+      <Course />
     </div>
   );
 }
