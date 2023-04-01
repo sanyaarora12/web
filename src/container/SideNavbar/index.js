@@ -33,6 +33,17 @@ const SideNavbar = () => {
       <div className="side-navbar">
         {data.courses.map((course) => (
           <div key={course.id}>
+            {/* {selectedName === course.name && (
+              <div className="video-container">
+                {selectedDescription === course.description && (
+                  <div>
+                    <video controls width="820" height="340">
+                      <source src={course.videoUrl} type="video/mp4" />
+                    </video>
+                  </div>
+                )}
+              </div>
+            )} */}
             <h4
               className="sub-container"
               onClick={() => handleNameClick(course.name)}
