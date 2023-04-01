@@ -5,13 +5,13 @@ import Login from "../../container/Login";
 
 export default function Routers() {
   return (
-    <div>
+    <>
       <Router>
         <Routes>
           <Route exact path="/" element={<Login />} />
           <Route exact path="/home" element={<Home />} />
         </Routes>
       </Router>
-    </div>
+    </>
   );
 }

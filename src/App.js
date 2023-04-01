@@ -1,15 +1,17 @@
 import React from "react";
-import Course from "./container/Home";
 import "./App.css";
-import Navbar from "./container/Navbar";
-//import Routers from "./helpers/Routers";
+//import Login from "./container/Login";
+// import Navbar from "./container/Navbar";
+// import SideNavBar from "./container/SideNavbar";
+import Routers from "./helpers/Routers";
 
 export default function App() {
   return (
     <div className="app">
-      {/* <Routers /> */}
-      <Navbar />
-      <Course />
+      <Routers />
+      {/* <Login /> */}
+      {/* <Navbar />
+      <SideNavBar /> */}
     </div>
   );
 }
